@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-export const SITE_URL = 'https://100ms.vercel.app';
+export const SITE_URL = 'https://banklessdesci.vercel.app';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'DEMO';
+export const TWITTER_USER_NAME = 'banklessdesci';
+export const BRAND_NAME = 'BanklessDeSci';
 export const SITE_NAME_MULTILINE = ['DEMO', 'Conf'];
-export const SITE_NAME = 'DEMO Conf';
+export const SITE_NAME = 'BanklessDeSci Virtual Unconference';
 export const META_DESCRIPTION =
   'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
 export const SITE_DESCRIPTION =
   'An interactive online experience by the community, free for everyone.';
 export const DATE = '01 January 2022';
-export const SHORT_DATE = 'Jan 1 - 9:00am PST';
-export const FULL_DATE = 'Jan 1st 9am Pacific Time (GMT-7)';
+export const SHORT_DATE = 'Dec 1 - 9:00am PST';
+export const FULL_DATE = 'Dec 1st 9am Pacific Time (GMT-7)';
 export const TWEET_TEXT = META_DESCRIPTION;
 export const COOKIE = 'user-id';
 
@@ -41,15 +41,15 @@ export const REPO = 'https://github.com/vercel/virtual-event-starter-kit';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Live Stage',
+    name: 'Keynote Stage',
     route: '/stage/a'
   },
   {
-    name: 'Vercel Stage',
+    name: 'Bankless Stage',
     route: '/stage/c'
   },
   {
-    name: '100ms Stage',
+    name: 'DeSci Stage',
     route: '/stage/m'
   },
   {
