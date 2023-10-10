@@ -6,7 +6,8 @@
   "author": "Vercel Inc.",
   "homepage": "https://banklessdesci.vercel.app",
   "license": "Apache-2.0",
-  "engines": { "node": "18.x" }
+  "engines": {
+    "node": "^14"
   },
   "scripts": {
     "dev": "next",
