@@ -7,7 +7,7 @@
   "homepage": "https://banklessdesci.vercel.app",
   "license": "Apache-2.0",
   "engines": {
-    "node": "^14 || ^16"
+    "node": "^18 || ^18"
   },
   "scripts": {
     "dev": "next",
